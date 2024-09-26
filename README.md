@@ -46,6 +46,6 @@
 
 ###
 
-![snake gif](https://github.com/daniellealpimenta/daniellealpimenta/blob/output/github-contribution-grid-snake.svg)
+<img src="https://raw.githubusercontent.com/daniellealpimenta/daniellealpimenta/output/snake.svg" alt="Snake animation" />
 
 ###
