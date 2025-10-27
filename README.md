@@ -1,3 +1,8 @@
+<div>
+  <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=50&fontColor=FFFFF&fontAlign=50&fontAlignY=50&stroke=-&animation=fadeIn&descSize=20&descAlign=50&descAlignY=50&textBg=false&color=gradient"  />
+</div>
+
+
 # 👋 Olá, eu sou o Daniel Leal Pimenta<br><br>
 Sou um **desenvolvedor apaixonado por tecnologia**, atualmente cursando o **6º semestre de Engenharia de Software** na **Universidade Católica de Brasília**.  
 Atuo como **bolsista na Apple Developer Academy** e atuei como **estagiário de desenvolvimento no Senac DF**, onde trabalhei com **Laravel, PHP, Docker e Vue.Js**.  
@@ -66,7 +71,6 @@ Amo criar soluções inovadoras e explorar diferentes áreas — de **aplicaçõ
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=daniellealpimenta&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
----
-
-[![](https://visitcount.itsvg.in/api?id=daniellealpimenta&icon=0&color=0)](https://visitcount.itsvg.in)
-
+<div>
+  <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&color=gradient"  />
+</div>
