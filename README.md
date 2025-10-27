@@ -1,4 +1,3 @@
-# 💫 About Me:
 # 👋 Olá, eu sou o Daniel Leal Pimenta<br><br>
 Sou um **desenvolvedor apaixonado por tecnologia**, atualmente cursando o **6º semestre de Engenharia de Software** na **Universidade Católica de Brasília**.  
 Atuo como **bolsista na Apple Developer Academy** e **estagiário de desenvolvimento no Senac DF**, onde trabalho com **Laravel, PHP, Docker e SwiftUI**.  
