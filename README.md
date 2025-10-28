@@ -22,9 +22,9 @@
     Sou um <b>desenvolvedor apaixonado por tecnologia</b>, atualmente cursando o <b>6º semestre de Engenharia de Software</b> na <b>Universidade Católica de Brasília</b>.<br><br>
     Atuo como <b>bolsista na Apple Developer Academy</b> e atuei como <b>estagiário de desenvolvimento no Senac DF</b>, onde trabalhei com <b>Laravel, PHP, Docker e Vue.Js</b>.<br><br>
     Amo criar soluções inovadoras e explorar diferentes áreas — de <b>aplicações web</b>, <b>apps iOS</b> e <b>jogos</b> — sempre com foco em aprendizado contínuo e boas práticas de código. 🚀  
-  </div><br><br>
+  </div>
 
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" style="width:100%; max-width:1200px;" /> <br><br>
+  ---
 
   <!-- SOCIALS -->
   <details>
