@@ -1,17 +1,21 @@
-<div align="center">
+<div align="left">
 
   <div>
-    <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=50&fontColor=FFFFF&fontAlign=50&fontAlignY=50&stroke=-&animation=fadeIn&descSize=20&descAlign=50&descAlignY=50&textBg=false&color=gradient"  />
+    <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&color=gradient" width="100%" style="max-width:1600px;"/>
   </div>
 
- <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&pause=1000&color=195874&center=true&vCenter=true&random=true&width=460&height=80&lines=Daniel+Leal+Pimenta" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&pause=1000&color=195874&center=true&vCenter=true&random=true&width=460&height=80&lines=Daniel+Leal+Pimenta" alt="Typing SVG" />
   
-  Sou um **desenvolvedor apaixonado por tecnologia**, atualmente cursando o **6º semestre de Engenharia de Software** na **Universidade Católica de Brasília**.  
-  Atuo como **bolsista na Apple Developer Academy** e atuei como **estagiário de desenvolvimento no Senac DF**, onde trabalhei com **Laravel, PHP, Docker e Vue.Js**.  
-  Amo criar soluções inovadoras e explorar diferentes áreas — de **aplicações web**, **apps iOS** e **jogos** — sempre com foco em aprendizado contínuo e boas práticas de código. 🚀  
+  <br>
+
+ <div align="justify">
+
+ Sou um **desenvolvedor apaixonado por tecnologia**, atualmente cursando o **6º semestre de Engenharia de Software** na **Universidade Católica de Brasília**. Atuo como **bolsista na Apple Developer Academy** e atuei como **estagiário de desenvolvimento no Senac DF**, onde trabalhei com **Laravel, PHP, Docker e Vue.Js**. Amo criar soluções inovadoras e explorar diferentes áreas — de **aplicações web**, **apps iOS** e **jogos** — sempre com foco em aprendizado contínuo e boas práticas de código. 🚀  
+
+ </div>
   
   ---
-  
+
   ## 🌐 Socials:
   [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/danielleal133) 
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/daniel-leal-pimenta) 
@@ -19,8 +23,8 @@
   [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:danielleal54321@gmail.com) 
   
   ---
-  
-  # 💻 Tech Stack:
+
+  ## 💻 Tech Stack:
   ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) 
   ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white) 
   ![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white)
@@ -57,24 +61,37 @@
   ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
   
   ---
-  
-  # 📊 GitHub Stats:
-  ![](https://github-readme-stats.vercel.app/api?username=daniellealpimenta&theme=dark&hide_&include_all_commits=true&count_private=true)<br/>
-  ![](https://nirzak-streak-stats.vercel.app/?user=daniellealpimenta&theme=dark&hide_border=true)<br/>
-  ![](https://github-readme-stats.vercel.app/api/top-langs/?username=daniellealpimenta&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
-  
-  ---
-  
-  ### ✍️ Random Dev Quote
-  ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-  
-  ---
-  
-  ### 🔝 Top Contributed Repo
-  ![](https://github-contributor-stats.vercel.app/api?username=daniellealpimenta&limit=5&theme=dark&combine_all_yearly_contributions=true)
-  
+
+  <details>
+    <summary><b>📊 GitHub Stats</b></summary>
+    <div align="center">
+      <br>
+      <img src="https://github-readme-stats.vercel.app/api?username=daniellealpimenta&theme=dark&hide_border=true&include_all_commits=true&count_private=true" />
+      <br>
+      <img src="https://nirzak-streak-stats.vercel.app/?user=daniellealpimenta&theme=dark&hide_border=true" />
+      <br>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daniellealpimenta&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact" />
+    </div>
+  </details>
+
+  <details>
+    <summary><b>✍️ Random Dev Quote</b></summary>
+    <br>
+    <div align="center">
+      <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
+    </div>
+  </details>
+
+  <details>
+    <summary><b>🔝 Top Contributed Repo</b></summary>
+    <br>
+    <div align="center">
+      <img src="https://github-contributor-stats.vercel.app/api?username=daniellealpimenta&limit=5&theme=dark&combine_all_yearly_contributions=true" />
+    </div>
+  </details>
+
   <div>
-    <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&color=gradient"  />
+    <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=gradient" width="100%" style="max-width:1600px;"/>
   </div>
 
 </div>
