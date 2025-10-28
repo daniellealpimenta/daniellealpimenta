@@ -10,7 +10,11 @@
 
  <div align="justify">
 
- Sou um **desenvolvedor apaixonado por tecnologia**, atualmente cursando o **6º semestre de Engenharia de Software** na **Universidade Católica de Brasília**. Atuo como **bolsista na Apple Developer Academy** e atuei como **estagiário de desenvolvimento no Senac DF**, onde trabalhei com **Laravel, PHP, Docker e Vue.Js**. Amo criar soluções inovadoras e explorar diferentes áreas — de **aplicações web**, **apps iOS** e **jogos** — sempre com foco em aprendizado contínuo e boas práticas de código. 🚀  
+ Sou um **desenvolvedor apaixonado por tecnologia**, atualmente cursando o **6º semestre de Engenharia de Software** na **Universidade Católica de Brasília**.
+ 
+ Atuo como **bolsista na Apple Developer Academy** e atuei como **estagiário de desenvolvimento no Senac DF**, onde trabalhei com **Laravel, PHP, Docker e Vue.Js**.
+ 
+ Amo criar soluções inovadoras e explorar diferentes áreas — de **aplicações web**, **apps iOS** e **jogos** — sempre com foco em aprendizado contínuo e boas práticas de código. 🚀  
 
  </div>
   
