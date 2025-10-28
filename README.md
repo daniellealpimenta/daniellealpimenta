@@ -3,9 +3,9 @@
   <div>
     <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=50&fontColor=FFFFF&fontAlign=50&fontAlignY=50&stroke=-&animation=fadeIn&descSize=20&descAlign=50&descAlignY=50&textBg=false&color=gradient"  />
   </div>
+
+ <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&pause=1000&color=195874&center=true&vCenter=true&random=true&width=460&height=80&lines=Daniel+Leal+Pimenta" alt="Typing SVG" />
   
-  
-  # 👋 Olá, eu sou o Daniel Leal Pimenta<br><br>
   Sou um **desenvolvedor apaixonado por tecnologia**, atualmente cursando o **6º semestre de Engenharia de Software** na **Universidade Católica de Brasília**.  
   Atuo como **bolsista na Apple Developer Academy** e atuei como **estagiário de desenvolvimento no Senac DF**, onde trabalhei com **Laravel, PHP, Docker e Vue.Js**.  
   Amo criar soluções inovadoras e explorar diferentes áreas — de **aplicações web**, **apps iOS** e **jogos** — sempre com foco em aprendizado contínuo e boas práticas de código. 🚀  
