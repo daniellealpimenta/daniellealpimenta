@@ -1,18 +1,29 @@
 <div align="left">
 
   <!-- HEADER -->
+
+  <!-- Cor Sólida
   <div>
     <img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=cobalt" style="width:100%; max-width:1600px;" />
+  </div>
+  -->
+
+  <!-- Gradient -->
+  <div>
+    <img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&color=gradient"  style="width:100%; max-width:1600px;"/>
   </div>
 
   <!-- TÍTULO -->
 
   <!-- Ciano -->
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&pause=1000&color=195874&center=true&vCenter=true&random=true&width=460&height=80&lines=Daniel+Leal+Pimenta" alt="Typing SVG" />
-  
+  <div align="center">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&pause=1000&color=FFFFFF&center=true&vCenter=true&random=true&width=460&height=80&lines=Daniel+Leal+Pimenta" alt="Typing SVG" />
+  </div>
 
   <!-- Vinho 
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&pause=1000&color=8D0C0CFF&center=true&vCenter=true&random=true&width=460&height=80&lines=Daniel+Leal+Pimenta" alt="Typing SVG" />
+  <div align="center">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&pause=1000&color=8D0C0CFF&center=true&vCenter=true&random=true&width=460&height=80&lines=Daniel+Leal+Pimenta" alt="Typing SVG" />
+  </div>
   -->
   
   <br>
@@ -120,8 +131,16 @@
   </details>
 
   <!-- FOOTER -->
+
+  <!-- Cor Sólida
   <div>
     <img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&textBg=false&theme=cobalt" style="width:100%; max-width:1600px;"/>
+  </div>
+  -->
+
+  <!-- Gradient -->
+  <div>
+    <img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&color=gradient"  style="width:100%; max-width:1600px;"/>
   </div>
 
 </div>
