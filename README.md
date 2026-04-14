@@ -101,16 +101,13 @@
 
   <!-- GITHUB STATS -->
   <details>
-    <summary><b>📊 GitHub Stats</b></summary>
-    <div align="center">
-      <br>
-      <img src="https://github-readme-stats.vercel.app/api?username=daniellealpimenta&theme=dark&hide_border=true&include_all_commits=true&count_private=true" />
-      <br>
-      <img src="https://nirzak-streak-stats.vercel.app/?user=daniellealpimenta&theme=dark&hide_border=true" />
-      <br>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daniellealpimenta&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact" />
-    </div>
-  </details>
+  <summary><b>📊 GitHub Stats</b></summary>
+  <p align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=daniellealpimenta&theme=dark&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=1800" />
+    <img src="https://nirzak-streak-stats.vercel.app/?user=daniellealpimenta&theme=dark&hide_border=true" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daniellealpimenta&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact" />
+  </p>
+</details>
 
   <!-- RANDOM QUOTE -->
   <details>
