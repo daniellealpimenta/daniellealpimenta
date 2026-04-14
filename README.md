@@ -101,13 +101,16 @@
 
   <!-- GITHUB STATS -->
   <details>
-  <summary><b>📊 GitHub Stats</b></summary>
-  <p align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=daniellealpimenta&theme=dark&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=1800" />
-    <img src="https://nirzak-streak-stats.vercel.app/?user=daniellealpimenta&theme=dark&hide_border=true" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=daniellealpimenta&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact" />
-  </p>
-</details>
+    <summary><b>📊 GitHub Stats</b></summary>
+    <p align="center">
+      <br>
+      <img src="https://github-readme-stats-fast.vercel.app/api?username=daniellealpimenta&theme=dark&hide_border=true&include_all_commits=true&count_private=true" />
+      <br><br>
+      <img src="https://nirzak-streak-stats.vercel.app/?user=daniellealpimenta&theme=dark&hide_border=true" />
+      <br><br>
+      <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=daniellealpimenta&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact" />
+    </p>
+  </details>
 
   <!-- RANDOM QUOTE -->
   <details>
@@ -122,9 +125,9 @@
   <details>
     <summary><b>🔝 Top Contributed Repo</b></summary>
     <br>
-    <div align="center">
+    <p align="center">
       <img src="https://github-contributor-stats.vercel.app/api?username=daniellealpimenta&limit=5&theme=dark&combine_all_yearly_contributions=true" />
-    </div>
+    </p>
   </details>
 
   <!-- FOOTER -->
