@@ -38,7 +38,6 @@ jobs:
           base: ""
           plugin_lines: yes
           plugin_stresk: yes
-          # Configuração específica para o estilo do streak
           plugin_metrics_custom: |
             https://github-readme-streak-stats.herokuapp.com/?user=daniellealpimenta&theme=dark&hide_border=true
 
@@ -48,5 +47,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           mkdir -p profile
           git add profile/*.svg
+          # O pull com rebase garante que o Action pegue suas mudanças do README antes de postar as fotos
+          git pull --rebase origin main
           git commit -m "Update README cards" || exit 0
           git push
