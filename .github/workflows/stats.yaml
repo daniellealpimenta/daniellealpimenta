@@ -30,6 +30,18 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Generate streak stats card
+        uses: lowlighter/metrics@latest
+        with:
+          filename: profile/streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
+          plugin_lines: yes
+          plugin_stresk: yes
+          # Configuração específica para o estilo do streak
+          plugin_metrics_custom: |
+            https://github-readme-streak-stats.herokuapp.com/?user=daniellealpimenta&theme=dark&hide_border=true
+
       - name: Commit cards
         run: |
           git config user.name "github-actions[bot]"
