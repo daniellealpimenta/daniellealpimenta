@@ -104,9 +104,7 @@
     <summary><b>📊 GitHub Stats</b></summary>
     <p align="center">
       <img src="./profile/stats.svg" alt="Stats" />
-      <br><br>
       <img src="./profile/streak.svg" alt="Streak" />
-      <br><br>
       <img src="./profile/top-langs.svg" alt="Languages" />
     </p>
   </details>
