@@ -103,12 +103,11 @@
   <details>
     <summary><b>📊 GitHub Stats</b></summary>
     <p align="center">
-      <br>
-      <img src="https://github-readme-stats-fast.vercel.app/api?username=daniellealpimenta&theme=dark&hide_border=true&include_all_commits=true&count_private=true" />
+      <img src="./profile/stats.svg" alt="Stats" />
       <br><br>
-      <img src="https://nirzak-streak-stats.vercel.app/?user=daniellealpimenta&theme=dark&hide_border=true" />
+      <img src="./profile/streak.svg" alt="Streak" />
       <br><br>
-      <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=daniellealpimenta&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact" />
+      <img src="./profile/top-langs.svg" alt="Languages" />
     </p>
   </details>
 
@@ -122,13 +121,14 @@
   </details>
 
   <!-- CONTRIBUTIONS -->
-  <details>
+  <!-- <details>
     <summary><b>🔝 Top Contributed Repo</b></summary>
     <br>
     <p align="center">
       <img src="https://github-contributor-stats.vercel.app/api?username=daniellealpimenta&limit=5&theme=dark&combine_all_yearly_contributions=true" />
     </p>
   </details>
+  -->
 
   <!-- FOOTER -->
 
