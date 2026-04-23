@@ -121,6 +121,7 @@
   <!-- PACMAN CONTRIBUTION -->
   <details>
     <summary><b>🗓️ Contribution Graph</b></summary>
+    <br>
     <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/daniellealpimenta/daniellealpimenta/output/pacman-contribution-graph-dark.svg">
         <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/daniellealpimenta/daniellealpimenta/output/pacman-contribution-graph.svg">
