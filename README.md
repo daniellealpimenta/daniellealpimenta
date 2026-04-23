@@ -118,6 +118,16 @@
     </div>
   </details>
 
+  <!-- PACMAN CONTRIBUTION -->
+  <details>
+    <summary><b>🗓️ Contribution Graph</b></summary>
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/daniellealpimenta/daniellealpimenta/output/pacman-contribution-graph-dark.svg">
+        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/daniellealpimenta/daniellealpimenta/output/pacman-contribution-graph.svg">
+        <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/daniellealpimenta/daniellealpimenta/output/pacman-contribution-graph.svg">
+    </picture>
+  </details>
+
   <!-- CONTRIBUTIONS -->
   <!-- <details>
     <summary><b>🔝 Top Contributed Repo</b></summary>
