@@ -123,9 +123,9 @@
     <summary><b>🗓️ Contribution Graph</b></summary>
     <br>
     <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/daniellealpimenta/daniellealpimenta/output/pacman-contribution-graph-dark.svg">
-        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/daniellealpimenta/daniellealpimenta/output/pacman-contribution-graph.svg">
-        <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/daniellealpimenta/daniellealpimenta/output/pacman-contribution-graph.svg">
+        <source media="(prefers-color-scheme: dark)" srcset="./profile/pacman-dark.svg">
+        <source media="(prefers-color-scheme: light)" srcset="./profile/pacman.svg">
+        <img alt="pacman contribution graph" src="./profile/pacman.svg">
     </picture>
   </details>
 
