@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   build:
@@ -19,30 +22,31 @@ jobs:
           mkdir -p profile
           # Stats
           curl -L "https://github-readme-stats-fast.vercel.app/api?username=daniellealpimenta&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=true" -o profile/stats.svg
-          
           # Streak
           curl -L "https://github-readme-stats-fast.vercel.app/api/streak?username=daniellealpimenta&theme=dark&hide_border=true" -o profile/streak.svg
-          
           # Top Languages
           curl -L "https://github-readme-stats-fast.vercel.app/api/top-langs?username=daniellealpimenta&theme=dark&hide_border=true&layout=compact" -o profile/top-langs.svg
-          
-          # WakaTime (Certifique-se que seu WakaTime está configurado como público no site deles)
+          # WakaTime
           curl -L "https://github-readme-stats-fast.vercel.app/api/wakatime?username=daniellealpimenta&theme=dark&hide_border=true&layout=compact" -o profile/wakatime.svg
-          
-          # Repo Pin (Exemplo com o repositório 'Sabour', ajuste o nome se quiser outro)
+          # Repo Pin
           curl -L "https://github-readme-stats-fast.vercel.app/api/pin?username=daniellealpimenta&repo=Sabour&theme=dark&hide_border=true" -o profile/pin.svg
-          
-          # Gist (Caso você tenha Gists públicos)
-          # curl -L "https://github-readme-stats-fast.vercel.app/api/gist?username=daniellealpimenta&theme=dark&hide_border=true" -o profile/gist.svg
 
-      - name: Commit cards
+      - name: Generate Pacman Graph
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: daniellealpimenta
+
+      - name: Move Pacman to Profile
+        run: |
+          # Movemos o que a action gerou para a pasta profile que você já usa
+          mv dist/pacman-contribution-graph.svg profile/pacman.svg
+          # Opcional: Se a action gerar a versão dark, renomeie também
+          [ -f dist/pacman-contribution-graph-dark.svg ] && mv dist/pacman-contribution-graph-dark.svg profile/pacman-dark.svg || echo "Dark version not found"
+
+      - name: Commit and Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile/*.svg
-          git stash
-          git pull --rebase origin main
-          git stash pop || echo "Sem mudanças"
-          git add profile/*.svg
-          git commit -m "Update README cards fast" || exit 0
+          git commit -m "Update README cards and Pacman" || exit 0
           git push
