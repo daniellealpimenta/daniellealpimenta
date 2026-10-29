@@ -17,19 +17,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate All Fast Cards
+      # Stats e linguagens gerados aqui mesmo, pela API do GitHub (sem serviço externo)
+      - name: Generate stats and top languages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/cards.py daniellealpimenta
+
+      # --fail: se o serviço cair, o curl falha e o arquivo antigo continua no lugar,
+      # em vez de virar um .svg com a mensagem de erro dentro
+      - name: Generate streak
+        continue-on-error: true
         run: |
-          mkdir -p profile
-          # Stats
-          curl -L "https://github-readme-stats-fast.vercel.app/api?username=daniellealpimenta&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=true" -o profile/stats.svg
-          # Streak
-          curl -L "https://github-readme-stats-fast.vercel.app/api/streak?username=daniellealpimenta&theme=dark&hide_border=true" -o profile/streak.svg
-          # Top Languages
-          curl -L "https://github-readme-stats-fast.vercel.app/api/top-langs?username=daniellealpimenta&theme=dark&hide_border=true&layout=compact" -o profile/top-langs.svg
-          # WakaTime
-          curl -L "https://github-readme-stats-fast.vercel.app/api/wakatime?username=daniellealpimenta&theme=dark&hide_border=true&layout=compact" -o profile/wakatime.svg
-          # Repo Pin
-          curl -L "https://github-readme-stats-fast.vercel.app/api/pin?username=daniellealpimenta&repo=Sabour&theme=dark&hide_border=true" -o profile/pin.svg
+          curl -fsSL "https://streak-stats.demolab.com?user=daniellealpimenta&theme=dark&hide_border=true&locale=pt_BR" -o /tmp/streak.svg
+          grep -q "<svg" /tmp/streak.svg && mv /tmp/streak.svg profile/streak.svg
 
       - name: Generate Pacman Graph
         uses: abozanona/pacman-contribution-graph@main
@@ -38,9 +38,7 @@ jobs:
 
       - name: Move Pacman to Profile
         run: |
-          # Movemos o que a action gerou para a pasta profile que você já usa
           mv dist/pacman-contribution-graph.svg profile/pacman.svg
-          # Opcional: Se a action gerar a versão dark, renomeie também
           [ -f dist/pacman-contribution-graph-dark.svg ] && mv dist/pacman-contribution-graph-dark.svg profile/pacman-dark.svg || echo "Dark version not found"
 
       - name: Commit and Push

@@ -17,12 +17,12 @@
 
   <!-- Ciano -->
   <div align="center">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&pause=1000&color=FFFFFF&center=true&vCenter=true&random=true&width=460&height=80&lines=Daniel+Leal+Pimenta" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&color=FFFFFF&center=true&vCenter=true&width=800&height=70&lines=Daniel+Leal+Pimenta+-+Mobile+Developer" alt="Typing SVG" />
   </div>
 
   <!-- Vinho 
   <div align="center">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&pause=1000&color=8D0C0CFF&center=true&vCenter=true&random=true&width=460&height=80&lines=Daniel+Leal+Pimenta" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&color=8D0C0CFF&center=true&vCenter=true&width=800&height=70&lines=Daniel+Leal+Pimenta+-+Mobile+Developer" alt="Typing SVG" />
   </div>
   -->
   
